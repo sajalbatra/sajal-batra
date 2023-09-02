@@ -1,4 +1,4 @@
-.header {
+.header-desktop {
     display: flex;
     flex-direction: row;
     position: relative;
@@ -7,16 +7,17 @@
     /* flex-wrap:wrap; */
 }
 
-.header-right {
+.header-desktop-right {
     position: absolute;
     display: flex;
     flex-direction: row;
     right: 0;
     gap: 30px;
+    
     /* flex-wrap:wrap; */
 }
 
-.header-right p {
+.header-desktop-right p {
     color: #FFF;
     font-family: Acme;
     font-size: 25px;
@@ -26,7 +27,7 @@
     
 }
 
-.header-left {
+.header-desktop-left {
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -35,7 +36,7 @@
 
 }
 
-.header-left p {
+.header-desktop-left p {
     color: #FFF;
     font-family: Acme;
     font-size: 28px;
@@ -43,6 +44,12 @@
     font-weight: 400;
     cursor: pointer;
 }
-.header-right-last-element{
+.header-desktop-right-last-element{
     margin-right: 20px;
+}
+.mobile-toggle{
+    position: absolute;
+    color: #FFF;
+    top: 30px;
+    right: 1px;
 }
