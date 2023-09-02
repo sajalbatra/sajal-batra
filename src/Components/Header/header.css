@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-evenly;
+    top: -15px;
+    /* flex-wrap:wrap; */
+}
+
+.header-right {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    right: 0;
+    gap: 30px;
+    /* flex-wrap:wrap; */
+}
+
+.header-right p {
+    color: #FFF;
+    font-family: Acme;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;
+    
+}
+
+.header-left {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 0;
+    top: -0.35875rem;
+
+}
+
+.header-left p {
+    color: #FFF;
+    font-family: Acme;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;
+}
+.header-right-last-element{
+    margin-right: 20px;
+}
