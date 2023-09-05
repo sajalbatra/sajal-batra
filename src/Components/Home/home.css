@@ -1,0 +1,123 @@
+.home-main-div {
+  position: relative;
+}
+.home-left-div {
+  margin-top: -150px;
+  margin-left: -50px;
+  position: absolute;
+  border-radius: 50px 50px 50px 0px;
+  background: linear-gradient(90deg, #32f6f6 0%, #a6a79f 100%);
+  box-shadow: 0px 15px 50px 0px rgba(153, 153, 153, 0.25);
+  width: 197px;
+  height: 72px;
+  left: 99px;
+  top: 237px;
+}
+.home-left-div-hello {
+  position: absolute;
+  color: #fff;
+  font-family: Acme;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  top: -11px;
+  padding-left: 43px;
+}
+.home-left-div-hello span {
+  position: absolute;
+  margin-top: -10px;
+  margin-left: 80px;
+}
+.home-left-div-name {
+  color: #fff;
+  font-family: Acme;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  white-space: nowrap;
+  padding-top: 10px;
+}
+.home-left-div-name span {
+  color: #f4c3c3;
+  font-family: Acme;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: underline;
+  /* right:5px; */
+}
+.home-left-div-bio {
+  white-space: nowrap;
+  color: #fff;
+  font-family: Acme;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: -50px;
+}
+.home-right-div {
+  position: relative;
+  margin-left: 600px;
+  margin-top: 100px;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: linear-gradient(
+    45deg,
+    #ccc 50%,
+    #000940 50%
+  ); /* Diagonal gradient */
+}
+
+.home-right-div img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.Download_CV {
+  width: 198px;
+  height: 69px;
+  background: linear-gradient(90deg, #df580c 0%, #fd993d 100%);
+  border: 3px solid #fff;
+  box-shadow: 0px 15px 50px rgba(153, 153, 153, 0.25);
+  text-align: center;
+  line-height: 69px; /* Center text vertically */
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.Download_CV p {
+  color: #fefefe;
+  font-family: "Mochiy Pop One", sans-serif; /* Use quotes for font names with spaces */
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0; /* Remove default margin for the paragraph */
+}
+.Get_in_touch {
+  width: 197px;
+  height: 69px;
+  background: linear-gradient(90deg, #434343 0%, #817e7e 100%);
+  border: 3px solid #fff;
+  box-shadow: 0px 15px 50px rgba(153, 153, 153, 0.25);
+  text-align: center;
+  line-height: 69px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.Get_in_touch p {
+  color: #fefefe;
+  font-family: "Mochiy Pop One", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+}
+.home-buttons{
+  margin-left: 44px;
+  margin-top: -120px;
+  display: flex;
+  gap: 35px;
+}
