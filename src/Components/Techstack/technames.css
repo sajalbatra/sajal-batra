@@ -1,0 +1,17 @@
+.techsnames-main-div{
+    margin-top: 200px;
+}
+.techsnames-main-div h1{
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+.technames-elements-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

@@ -1,4 +1,6 @@
 import Header from "./Header/Header";
 import Home from "./Home/Home";
 import About from "./Aboutus/About"
-export{Header,Home,About};
+// import Techstack from "./Techstack/Techstack";
+import Technames from "./Techstack/Technames";
+export{Header,Home,About,Technames};
