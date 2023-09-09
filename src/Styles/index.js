@@ -7,6 +7,20 @@ import tailwind from "./Techstacklogos/tailwind.svg"
 import sass from "./Techstacklogos/sass.svg"
 import appwrite from "./Techstacklogos/built-with-appwrite.svg"
 import firebase from "./Techstacklogos/firebase.svg"
+import c from "./Techstacklogos/C.svg"
+import cpp from "./Techstacklogos/c++.svg"
+import java from "./Techstacklogos/java.svg"
+import python from "./Techstacklogos/python.svg"
+import arduino from "./Techstacklogos/arduino.svg"
+import express from "./Techstacklogos/express-js.svg"
+import node from "./Techstacklogos/nodejs.svg"
+import mongodb from "./Techstacklogos/mongodb.svg"
+import mysql from "./Techstacklogos/icons8-mysql.svg"
+import next from "./Techstacklogos/nextjs.svg"
+import figma from "./Techstacklogos/figma.svg"
+import adobexd from "./Techstacklogos/adobexd.svg"
+import postman from "./Techstacklogos/postman.svg"
 export {
-    html,css,js,react,bootstrap,tailwind,sass,appwrite,firebase
+    html,css,js,react,bootstrap,tailwind,sass,appwrite,firebase,c,cpp,java,python,arduino,express,node,mongodb,
+    mysql,next,figma,adobexd,postman,
 }

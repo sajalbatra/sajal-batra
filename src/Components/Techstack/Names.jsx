@@ -1,34 +1,52 @@
-import { html,css,js,react,bootstrap,tailwind,sass,appwrite,firebase } from "../../Styles/index";
-const names=[
-    {
-        name:html,  
-    },
-    {
-        name:css,
-    },
-    {
-        name:js,
-    },
-    {
-        name:react,
-    },
-    {
-        name:css,
-    },
-    {
-        name:bootstrap,
-    },
-    {
-        name:tailwind,
-    },
-    {
-        name:sass,
-    },
-    {
-        name:appwrite,
-    },
-    {
-        name:firebase,
-    },
-]
-export default names;
+import {
+    html,
+    css,
+    js,
+    react,
+    bootstrap,
+    tailwind,
+    sass,
+    appwrite,
+    firebase,
+    c,
+    cpp,
+    java,
+    python,
+    arduino,
+    express,
+    node,
+    mongodb,
+    mysql,
+    next,
+    figma,
+    adobexd,
+    postman,
+  } from "../../Styles/index";
+  
+  const names = [
+    { name: html },
+    { name: css },
+    { name: js },
+    { name: react },
+    { name: bootstrap },
+    { name: tailwind },
+    { name: sass },
+    { name: appwrite },
+    { name: firebase },
+    { name: c },
+    { name: java },
+    { name: cpp },
+    { name: python },
+    { name: arduino },
+    { name: express },
+    { name: node },
+    { name: mongodb },
+    { name: mysql },
+    { name: next },
+    { name: figma },
+    { name: adobexd },
+    { name: postman },
+  ];
+  
+  export default names;
+  
