@@ -121,3 +121,56 @@
   display: flex;
   gap: 35px;
 }
+
+@media (max-width: 768px) {
+  .home-main-div {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  .home-left-div {
+    position: static;
+    border-radius: 0;
+    width: auto;
+    height: auto;
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  .home-left-div-hello {
+    font-size: 24px;
+    top: 0;
+    padding-left: 0;
+  }
+
+  .home-left-div-hello span {
+    margin-left: 0;
+  }
+
+  .home-left-div-name {
+    font-size: 36px;
+    padding-top: 5px;
+  }
+
+  .home-left-div-name span {
+    font-size: 36px;
+  }
+
+  .home-left-div-bio {
+    font-size: 18px;
+  }
+
+  .home-right-div {
+    width: 80%;
+    margin: 20px auto;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .home-buttons {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+}
