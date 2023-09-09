@@ -44,12 +44,14 @@ const Header = () => {
         )}
         {!isMobile && (
           <>
+          
             <p>Home</p>
             <p>About</p>
             <p>Skills</p>
             <p>Projects</p>
             <p>Resume</p>
             <p className="header-desktop-right-last-element">Contact Me</p>
+          
           </>
         )}
       </div>
