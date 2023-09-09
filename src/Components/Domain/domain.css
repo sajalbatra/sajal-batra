@@ -1,0 +1,32 @@
+.domain-main-div{
+    position: relative;
+    width: 389px;
+height: 380px;
+border-radius: 50px;
+background: var(--pp2-orange, linear-gradient(214deg, #EA5F5F 6.04%, #EA5 92.95%));
+box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.25);
+cursor: pointer;
+}
+.domain-main-div img{
+    margin-top:5% ;
+
+    margin-left: 45%;
+}
+.domain-main-div h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 36px */
+}
+.domain-main-div p{
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%; /* 36px */
+}

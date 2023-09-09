@@ -1,0 +1,18 @@
+.DomainName-main-div{
+    margin-top: 100px;
+}
+.DomainName-main-div-heading{
+    color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 60px */
+}
+.DomainName-all-domains{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* gap: 5px; */
+}

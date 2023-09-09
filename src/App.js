@@ -1,5 +1,5 @@
 import './App.css';
-import { Header, Home ,About, Technames } from './Components/index';
+import { Header, Home ,About, Technames,DomainName } from './Components/index';
 function App() {
   return (
     <>
@@ -7,6 +7,7 @@ function App() {
     <Home/>
     <About/>
     <Technames/>
+    <DomainName/>
     </>
   );
 }
