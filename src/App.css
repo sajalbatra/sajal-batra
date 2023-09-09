@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body {
     background-image: url("./Styles/background.svg");
+    background-size: cover;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;

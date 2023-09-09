@@ -31,8 +31,8 @@
     position: absolute;
     display: flex;
     flex-direction: row;
-    left: 0;
-    top: -0.35875rem;
+    left: 40px;
+    top: -0.1000rem;
 
 }
 
@@ -52,4 +52,17 @@
     color: #FFF;
     top: 30px;
     right: 1px;
+}
+@media  (max-width: 768px) {
+    .header-desktop-left {
+        left: 10px;
+        top: 0;
+    }
+    .mobile-toggle{
+        top: 32px;
+        right: 1px;
+        width: 20px;
+        height: 20px ;
+    }
+    
 }
