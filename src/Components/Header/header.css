@@ -1,10 +1,14 @@
+
 .header-desktop {
     display: flex;
     flex-direction: row;
     position: relative;
     justify-content: space-evenly;
     top: -15px;
-    /* flex-wrap:wrap; */
+    position: sticky;
+    z-index: 1;
+    /* background: url(./background-header.svg); */
+    background-color: #000;
 }
 
 .header-desktop-right {

@@ -4,4 +4,5 @@ import About from "./Aboutus/About"
 // import Techstack from "./Techstack/Techstack";
 import DomainName from "./Domain/DomainName";
 import Technames from "./Techstack/Technames";
-export{Header,Home,About,Technames,DomainName};
+import Footer from "./Footer/Footer"
+export{Header,Home,About,Technames,DomainName,Footer};

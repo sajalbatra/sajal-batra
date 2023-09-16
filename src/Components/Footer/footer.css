@@ -1,0 +1,33 @@
+.Footer-main-div{
+    margin-top: 250px;
+    margin-bottom: 100px;
+}
+.Footer-main-div h1 {
+color: #FFF;
+font-family: Poppins;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+letter-spacing: 0.3px;
+text-align: center;
+}
+.Footer-main-div-socials{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap:wrap;
+    margin-bottom: 100px;
+}
+.Footer-main-div p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    text-align: center;
+    }
+.Footer-main-div p span{
+        font-size: 30px;
+        color: red;
+}
