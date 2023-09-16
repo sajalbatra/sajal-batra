@@ -2,7 +2,7 @@ import { FaBars } from 'react-icons/fa';
 import './header.css';
 import { useState, useEffect } from 'react';
 
-const Header = () => {
+const Header = ({ scrollTo }) => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
@@ -21,6 +21,15 @@ const Header = () => {
     };
   }, []);
 
+  const scrollToSection = (sectionId) => {
+    const targetElement = document.getElementById(sectionId);
+
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: 'smooth' });
+      setShowMobileMenu(false); // Close mobile menu after clicking a link
+    }
+  };
+
   return (
     <div className={`header-desktop${showMobileMenu ? ' open' : ''}`}>
       <div className='header-desktop-left'>
@@ -32,24 +41,24 @@ const Header = () => {
             <FaBars onClick={toggleMobileMenu} className='mobile-toggle' />
             {showMobileMenu && (
               <div className='mobile-menu'>
-                <p>Home</p>
-                <p>About</p>
-                <p>Skills</p>
-                <p>Projects</p>
-                <p>Resume</p>
-                <p className='mobile-menu-last-element'>Contact Me</p>
+                <p onClick={() => scrollToSection('home')}>Home</p>
+                <p onClick={() => scrollToSection('about')}>About</p>
+                <p onClick={() => scrollToSection('skills')}>Skills</p>
+                <p onClick={() => scrollToSection('projects')}>Projects</p>
+                <p onClick={() => scrollToSection('resume')}>Resume</p>
+                <p onClick={() => scrollToSection('contact')}>Contact Me</p>
               </div>
             )}
           </>
         )}
         {!isMobile && (
           <>
-            <p>Home</p>
-            <p>About</p>
-            <p>Skills</p>
-            <p>Projects</p>
-            <p>Resume</p>
-            <p className='header-desktop-right-last-element'>Contact Me</p>
+            <p onClick={() => scrollToSection('home')}>Home</p>
+            <p onClick={() => scrollToSection('about')}>About</p>
+            <p onClick={() => scrollToSection('skills')}>Skills</p>
+            <p onClick={() => scrollToSection('projects')}>Projects</p>
+            <p onClick={() => scrollToSection('resume')}>Resume</p>
+            <p onClick={() => scrollToSection('contact')}>Contact Me</p>
           </>
         )}
       </div>
