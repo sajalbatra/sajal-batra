@@ -42,7 +42,7 @@ console.log(currentYear);
       </div>
       
       <p>@{currentYear}</p>
-      <p  id='Developedwithlove'>Developed and Designed with <span>♥ </span>by Sajal Batra</p>
+      <p  id='Developedwithlove'>Developed & Designed with <span>♥ </span>by Sajal</p>
     </div>
   );
 }

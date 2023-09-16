@@ -1,5 +1,5 @@
 import { FaBars } from 'react-icons/fa';
-import "./header.css";
+import './header.css';
 import { useState, useEffect } from 'react';
 
 const Header = () => {
@@ -12,7 +12,7 @@ const Header = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768); 
+      setIsMobile(window.innerWidth <= 768);
     };
     window.addEventListener('resize', handleResize);
     handleResize();
@@ -22,7 +22,7 @@ const Header = () => {
   }, []);
 
   return (
-    <div className='header-desktop'>
+    <div className={`header-desktop${showMobileMenu ? ' open' : ''}`}>
       <div className='header-desktop-left'>
         <p>Sajal Batra</p>
       </div>
@@ -37,26 +37,24 @@ const Header = () => {
                 <p>Skills</p>
                 <p>Projects</p>
                 <p>Resume</p>
-                <p className="mobile-menu-last-element">Contact Me</p>
+                <p className='mobile-menu-last-element'>Contact Me</p>
               </div>
             )}
           </>
         )}
         {!isMobile && (
           <>
-          
             <p>Home</p>
             <p>About</p>
             <p>Skills</p>
             <p>Projects</p>
             <p>Resume</p>
-            <p className="header-desktop-right-last-element">Contact Me</p>
-          
+            <p className='header-desktop-right-last-element'>Contact Me</p>
           </>
         )}
       </div>
     </div>
   );
-}
+};
 
 export default Header;
