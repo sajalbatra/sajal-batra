@@ -1,6 +1,6 @@
 import React from 'react'
 import "./home.css"
-import sajalimg1 from "../../Styles/sajalimg1.png"
+import imgsmilesajalbgno from "../../Styles/imgsmilesajalbgno.jpg"
 const Home = () => {
   return (
     <div className='home-main-div'>
@@ -10,7 +10,7 @@ const Home = () => {
             <p className='home-left-div-bio'>UI/UX Designer, Full stack Developer </p>
         </div>
         <div className='home-right-div'>
-        <img src={sajalimg1} alt='sajal1'/>
+        <img src={imgsmilesajalbgno} alt='sajal1'/>
         </div>
         <div  className='home-buttons'>
         <div className='Download_CV'><p>Download CV</p></div>
