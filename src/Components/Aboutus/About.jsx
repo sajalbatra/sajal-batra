@@ -4,7 +4,7 @@ import sajalabout from "../../Styles/sajalheadshot.jpg"
 
 const About = () => {
   return (
-    <div className='about-us-page-heading'>
+    <div className='about-us-page-heading' id='about'>
     <h1>About Me</h1>
     <div className='about-us-page'>
       <div className='about-us-page-left'>

@@ -1,8 +1,10 @@
 import { FaBars } from 'react-icons/fa';
 import './header.css';
 import { useState, useEffect } from 'react';
+import { Link } from 'react-scroll';
+// import { Home, About, Technames, DomainName, Footer } from '../index';
 
-const Header = ({ scrollTo }) => {
+const Header = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
@@ -21,15 +23,6 @@ const Header = ({ scrollTo }) => {
     };
   }, []);
 
-  const scrollToSection = (sectionId) => {
-    const targetElement = document.getElementById(sectionId);
-
-    if (targetElement) {
-      targetElement.scrollIntoView({ behavior: 'smooth' });
-      setShowMobileMenu(false); // Close mobile menu after clicking a link
-    }
-  };
-
   return (
     <div className={`header-desktop${showMobileMenu ? ' open' : ''}`}>
       <div className='header-desktop-left'>
@@ -41,24 +34,48 @@ const Header = ({ scrollTo }) => {
             <FaBars onClick={toggleMobileMenu} className='mobile-toggle' />
             {showMobileMenu && (
               <div className='mobile-menu'>
-                <p onClick={() => scrollToSection('home')}>Home</p>
-                <p onClick={() => scrollToSection('about')}>About</p>
-                <p onClick={() => scrollToSection('skills')}>Skills</p>
-                <p onClick={() => scrollToSection('projects')}>Projects</p>
-                <p onClick={() => scrollToSection('resume')}>Resume</p>
-                <p onClick={() => scrollToSection('contact')}>Contact Me</p>
+                <Link to="home" spy={true} smooth={true} offset={0} duration={500}>
+                  <p>Home</p>
+                </Link>
+                <Link to="about" spy={true} smooth={true} offset={-50} duration={500}>
+                  <p>About</p>
+                </Link>
+                <Link to="skills" spy={true} smooth={true} offset={0} duration={500}>
+                  <p>Skills</p>
+                </Link>
+                <Link to="projects" spy={true} smooth={true} offset={-50} duration={500}>
+                  <p>Projects</p>
+                </Link>
+                <Link to="resume" spy={true} smooth={true} offset={-50} duration={500}>
+                  <p>Resume</p>
+                </Link>
+                <Link to="footer" spy={true} smooth={true} offset={50} duration={1000}>
+                  <p>Contact Me</p>
+                </Link>
               </div>
             )}
           </>
         )}
         {!isMobile && (
           <>
-            <p onClick={() => scrollToSection('home')}>Home</p>
-            <p onClick={() => scrollToSection('about')}>About</p>
-            <p onClick={() => scrollToSection('skills')}>Skills</p>
-            <p onClick={() => scrollToSection('projects')}>Projects</p>
-            <p onClick={() => scrollToSection('resume')}>Resume</p>
-            <p onClick={() => scrollToSection('contact')}>Contact Me</p>
+            <Link to="home" spy={true} smooth={true} offset={50} duration={500}>
+              <p>Home</p>
+            </Link>
+            <Link to="about" spy={true} smooth={true} offset={-50} duration={500}>
+              <p>About</p>
+            </Link>
+            <Link to="skills" spy={true} smooth={true} offset={-50} duration={500}>
+              <p>Skills</p>
+            </Link>
+            <Link to="projects" spy={true} smooth={true} offset={-50} duration={500}>
+              <p>Projects</p>
+            </Link>
+            <Link to="resume" spy={true} smooth={true} offset={-50} duration={500}>
+              <p>Resume</p>
+            </Link>
+            <Link to="footer" spy={true} smooth={true} offset={150} duration={500}>
+              <p>Contact Me</p>
+            </Link>
           </>
         )}
       </div>

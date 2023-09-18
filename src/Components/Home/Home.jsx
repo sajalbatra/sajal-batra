@@ -3,7 +3,7 @@ import "./home.css"
 import imgsmilesajalbgno from "../../Styles/imgsmilesajalbgno.jpg"
 const Home = () => {
   return (
-    <div className='home-main-div'>
+    <div className='home-main-div' id='home'>
         <div className='home-left-div'>
             <p className='home-left-div-hello'>Hello! <span>👋</span></p>
             <p className='home-left-div-name'>I'm <span>Sajal</span></p>

@@ -31,3 +31,8 @@ margin-top: 20px;
     font-weight: 500;
     line-height: 180%; /* 36px */
 }
+.domain-link {
+    display: block; /* Make the link take up the full width of its container */
+    cursor: pointer; /* Change cursor to pointer on hover for better UX */
+    text-decoration: none;
+  }

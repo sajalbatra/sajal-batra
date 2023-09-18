@@ -7,9 +7,9 @@ const Footer = () => {
   // Create a new Date object
 const currentDate = new Date();
 const currentYear = currentDate.getFullYear();
-console.log(currentYear);
+// console.log(currentYear);
   return (
-    <div className='Footer-main-div'>
+    <div className='Footer-main-div' id='footer'>
       <h1>Contact Me</h1>
       <div className='Footer-main-div-socials'>
         <a href="https://twitter.com/your-twitter-url-here" target="_blank" rel="noopener noreferrer">
