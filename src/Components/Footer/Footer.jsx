@@ -12,31 +12,31 @@ const currentYear = currentDate.getFullYear();
     <div className='Footer-main-div' id='footer'>
       <h1>Contact Me</h1>
       <div className='Footer-main-div-socials'>
-        <a href="https://twitter.com/your-twitter-url-here" target="_blank" rel="noopener noreferrer">
+        <a href="https://twitter.com/sajalbatra" target="_blank" rel="noopener noreferrer">
           <img src={twitter} alt='' />
         </a>
-        <a href="https://www.linkedin.com/in/your-linkedin-url-here" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/sajal-batra" target="_blank" rel="noopener noreferrer">
           <img src={linkedin} alt='' />
         </a>
-        <a href="mailto:youremail@example.com">
+        <a href="mailto:sajalbatra7l@example.com">
           <img src={mail} alt='' />
         </a>
-        <a href="https://medium.com/your-medium-url-here" target="_blank" rel="noopener noreferrer">
+        <a href="https://sajalbatra.medium.com/" target="_blank" rel="noopener noreferrer">
           <img src={medium} alt='' />
         </a>
-        <a href="https://hashnode.com/@your-hashnode-username-here" target="_blank" rel="noopener noreferrer">
+        <a href="https://sajalbatra.hashnode.dev/" target="_blank" rel="noopener noreferrer">
           <img src={hashnode} alt='' />
         </a>
-        <a href="https://github.com/your-github-username-here" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/sajalbatra" target="_blank" rel="noopener noreferrer">
           <img src={github} alt='' />
         </a>
-        <a href="https://www.youtube.com/c/your-youtube-channel-here" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.youtube.com/c/@sajalbatra" target="_blank" rel="noopener noreferrer">
           <img src={youtube} alt='' />
         </a>
-        <a href="https://www.geeksforgeeks.org/" target="_blank" rel="noopener noreferrer">
+        <a href="https://auth.geeksforgeeks.org/user/batrasmgwk/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user" target="_blank" rel="noopener noreferrer">
           <img src={gfg} alt='' />
         </a>
-        <a href="https://leetcode.com/your-leetcode-username-here" target="_blank" rel="noopener noreferrer">
+        <a href="https://leetcode.com/sajal7/" target="_blank" rel="noopener noreferrer">
           <img src={leetcode} alt='' />
         </a>
       </div>
