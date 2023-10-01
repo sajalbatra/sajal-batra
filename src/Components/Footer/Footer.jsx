@@ -12,7 +12,7 @@ const currentYear = currentDate.getFullYear();
     <div className='Footer-main-div' id='footer'>
       <h1>Contact Me</h1>
       <div className='Footer-main-div-socials'>
-        <a href="https://twitter.com/sajalbatra" target="_blank" rel="noopener noreferrer">
+        <a href="https://twitter.com/sajal_batra" target="_blank" rel="noopener noreferrer">
           <img src={twitter} alt='' />
         </a>
         <a href="https://www.linkedin.com/in/sajal-batra" target="_blank" rel="noopener noreferrer">
@@ -30,7 +30,7 @@ const currentYear = currentDate.getFullYear();
         <a href="https://github.com/sajalbatra" target="_blank" rel="noopener noreferrer">
           <img src={github} alt='' />
         </a>
-        <a href="https://www.youtube.com/c/@sajalbatra" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.youtube.com/@sajalbatra" target="_blank" rel="noopener noreferrer">
           <img src={youtube} alt='' />
         </a>
         <a href="https://auth.geeksforgeeks.org/user/batrasmgwk/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user" target="_blank" rel="noopener noreferrer">
