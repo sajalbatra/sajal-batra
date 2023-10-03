@@ -12,7 +12,9 @@ const About = () => {
       </div>
       <div className='about-us-page-right'>
       <h1>Bit about me</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. </p>
+      <p>
+      I'm Sajal Batra, a dedicated full-stack developer and UI/UX enthusiast currently pursuing a B.Tech in Computer Science at SRM University. I'm passionate about innovation, workshops, and sharing tech insights on my YouTube channel. Join me in the world of software development and technology advancement.
+      </p>
       </div>
     </div>
     </div>

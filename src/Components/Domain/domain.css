@@ -1,7 +1,7 @@
 .domain-main-div{
     position: relative;
-    width: 389px;
-height: 380px;
+    width: 350px;
+height: 400px;
 border-radius: 50px;
 background: var(--pp2-orange, linear-gradient(214deg, #EA5F5F 6.04%, #EA5 92.95%));
 box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.25);
@@ -9,9 +9,14 @@ cursor: pointer;
 margin-top: 20px;
 }
 .domain-main-div img{
-    margin-top:5% ;
-
+    padding-top: 10%;
+    margin-top:10% ;
     margin-left: 45%;
+    display: flex;
+    height: 15%;
+    width: 15%;
+    border-radius: 50%;
+    /* align-items: center; */
 }
 .domain-main-div h1{
     color: #FFF;
@@ -36,3 +41,6 @@ margin-top: 20px;
     cursor: pointer; /* Change cursor to pointer on hover for better UX */
     text-decoration: none;
   }
+/* .domain-main-div img{
+
+} */

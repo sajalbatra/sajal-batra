@@ -121,6 +121,9 @@
   display: flex;
   gap: 35px;
 }
+.home-buttons a{
+  text-decoration: none;
+}
 
 @media (max-width: 768px) {
   .home-main-div {

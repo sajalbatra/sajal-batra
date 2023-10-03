@@ -18,7 +18,7 @@ const currentYear = currentDate.getFullYear();
         <a href="https://www.linkedin.com/in/sajal-batra" target="_blank" rel="noopener noreferrer">
           <img src={linkedin} alt='' />
         </a>
-        <a href="mailto:sajalbatra7@example.com">
+        <a href="mailto:abc@gmail.com">
           <img src={mail} alt='' />
         </a>
         <a href="https://sajalbatra.medium.com/" target="_blank" rel="noopener noreferrer">
@@ -42,7 +42,7 @@ const currentYear = currentDate.getFullYear();
       </div>
       
       <p>@{currentYear}</p>
-      <p  id='Developedwithlove'>Developed & Designed with <span>♥ </span>by Sajal</p>
+      <p  id='Developedwithlove'>Coded with <span>♥ </span>by Sajal</p>
     </div>
   );
 }

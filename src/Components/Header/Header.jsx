@@ -46,9 +46,9 @@ const Header = () => {
                 <Link to="projects" spy={true} smooth={true} offset={-50} duration={500}>
                   <p>Projects</p>
                 </Link>
-                <Link to="resume" spy={true} smooth={true} offset={-50} duration={500}>
+                <a href="https://drive.google.com/file/d/1dKUhifIv6XmKtqzuHmJmf05RVHnyDHy1/view?usp=drive_link" spy={true} smooth={true} offset={-50} duration={500}>
                   <p>Resume</p>
-                </Link>
+                </a>
                 <Link to="footer" spy={true} smooth={true} offset={50} duration={1000}>
                   <p>Contact Me</p>
                 </Link>
@@ -70,9 +70,9 @@ const Header = () => {
             <Link to="projects" spy={true} smooth={true} offset={-50} duration={500}>
               <p>Projects</p>
             </Link>
-            <Link to="resume" spy={true} smooth={true} offset={-50} duration={500}>
+            <a href="https://drive.google.com/file/d/1dKUhifIv6XmKtqzuHmJmf05RVHnyDHy1/view?usp=drive_link" spy={true} smooth={true} offset={-50} duration={500}>
               <p>Resume</p>
-            </Link>
+            </a>
             <Link to="footer" spy={true} smooth={true} offset={150} duration={500}>
               <p>Contact Me</p>
             </Link>

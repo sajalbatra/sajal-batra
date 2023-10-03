@@ -1,6 +1,6 @@
 import React from 'react'
 import "./home.css"
-import imgsmilesajalbgno from "../../Styles/imgsmilesajalbgno.jpg"
+import imgsmilesajalbgno from "../../Styles/imgsmilesajalbgno.png"
 const Home = () => {
   return (
     <div className='home-main-div' id='home'>
@@ -13,8 +13,13 @@ const Home = () => {
         <img src={imgsmilesajalbgno} alt='sajal1'/>
         </div>
         <div  className='home-buttons'>
-        <div className='Download_CV'><p>Download CV</p></div>
+          <a href='https://drive.google.com/file/d/1dKUhifIv6XmKtqzuHmJmf05RVHnyDHy1/view?usp=drive_link'>
+        <div className='Download_CV'><p>Download CV</p>
+        </div>
+        </a>
+        <a href='https://www.linkedin.com/in/sajal-batra-95314a25b/'>
         <div className='Get_in_touch'><p>Get in touch</p></div>
+        </a>
         </div>
     </div>
   )
