@@ -3,6 +3,7 @@ html {
   }
   
   .header-desktop {
+   
     display: flex;
     flex-direction: row;
     justify-content: space-between; /* Changed to space-between */
@@ -13,7 +14,6 @@ html {
     background-size: cover; /* Added background-size */
     height: 5rem;
     width: 100%;
-    margin: 0; 
     min-height: 100%;
     max-width:100%;
     }
@@ -25,6 +25,7 @@ html {
   }
   
   .header-desktop-right p {
+    text-decoration: none;
     color: #FFF;
     font-family: Acme;
     font-size: 1.5625rem;
@@ -32,7 +33,9 @@ html {
     font-weight: 400;
     cursor: pointer;
   }
-  
+  .header-desktop-right a {
+    text-decoration: none;
+  }
   .header-desktop-left {
     display: flex;
     flex-direction: row;
@@ -48,12 +51,15 @@ html {
     font-weight: 400;
     cursor: pointer;
   }
-  
+  .header-desktop-left a{
+    text-decoration: none;
+  }
   .header-desktop-right-last-element {
     margin-right: 0;
   }
   
   .mobile-toggle {
+    text-decoration: none;
     color: #FFF;
     top: 1.875rem;
     right: 0.0625rem;
@@ -86,6 +92,8 @@ html {
       padding-top: 0;
       height: 360px;
       box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+      text-decoration: none;
+
     }
   
     .mobile-menu p {

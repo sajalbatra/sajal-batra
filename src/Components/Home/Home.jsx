@@ -1,6 +1,6 @@
 import React from 'react'
 import "./home.css"
-import imgsmilesajalbgno from "../../Styles/imgsmilesajalbgno.png"
+import imgsmilesajalbgno from "../../Styles/portfoliohome.jpg"
 const Home = () => {
   return (
     <div className='home-main-div' id='home'>
