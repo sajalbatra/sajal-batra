@@ -13,7 +13,7 @@ const Home = () => {
         <img src={imgsmilesajalbgno} alt='sajal1'/>
         </div>
         <div  className='home-buttons'>
-          <a href='https://drive.google.com/file/d/1dKUhifIv6XmKtqzuHmJmf05RVHnyDHy1/view?usp=drive_link'>
+          <a href='https://www.sajalbatra.design'>
         <div className='Download_CV'><p>Download CV</p>
         </div>
         </a>

@@ -46,7 +46,7 @@ const Header = () => {
                 <Link to="projects" spy={true} smooth={true} offset={-50} duration={500}>
                   <p>Projects</p>
                 </Link>
-                <a href="www.sajalbatra.design" spy={true} smooth={true} offset={-50} duration={500}>
+                <a href="https://www.sajalbatra.design" spy={true} smooth={true} offset={-50} duration={500}>
                   <p>Resume</p>
                 </a>
                 <Link to="footer" spy={true} smooth={true} offset={50} duration={1000}>
@@ -70,7 +70,7 @@ const Header = () => {
             <Link to="projects" spy={true} smooth={true} offset={-50} duration={500}>
               <p>Projects</p>
             </Link>
-            <a href="www.sajalbatra.design" spy={true} smooth={true} offset={-50} duration={500}>
+            <a href="https://www.sajalbatra.design" spy={true} smooth={true} offset={-50} duration={500}>
               <p>Resume</p>
             </a>
             <Link to="footer" spy={true} smooth={true} offset={150} duration={500}>
